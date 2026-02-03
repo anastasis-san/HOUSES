@@ -185,6 +185,27 @@ body {
   text-shadow: 0 0 5px white;
 }
 
+.curious {
+  display: flex;            
+  flex-direction: column;   
+  justify-content: center;   
+  align-items: center;   
+  margin: 0 auto;
+  padding: 0 20px;
+  gap: 30px;   
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  text-shadow: 0 0 5px white;
+  
+  }
+
+.eye-img {
+  max-width: 100px;
+  height: auto;
+  display: block; 
+ 
+}
+
 .button {
   display: flex;              /* делаем контейнер гибким */
   justify-content: center;    /* центр по горизонтали */
@@ -231,4 +252,5 @@ body {
 .center-img 
 .home-text {
   transition: all 0.3s ease; /* плавное изменение всех свойств за 0.3 сек */
+
 }
